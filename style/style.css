@@ -1,0 +1,29 @@
+.container-geral{
+  
+    max-width: 1200px;
+}
+
+.input-t{
+    max-width: 600px;
+    
+    
+}
+
+.input-a-l{
+    max-width: 600px;
+}
+
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #barcode, #barcode * {
+      visibility: visible;
+    }
+    #barcode {
+      position: fixed;
+      left: 0;
+      top: 0;
+    }
+  }

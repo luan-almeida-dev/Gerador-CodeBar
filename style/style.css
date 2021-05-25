@@ -4,15 +4,31 @@
 }
 
 .input-t{
-    max-width: 600px;
+    max-width: 800px;
     
     
 }
 
 .input-a-l{
-    max-width: 600px;
+    max-width: 800px;
 }
 
+@keyframes title {
+  0%{color: red;}
+  25%{color: rgb(25, 0, 255);}
+  50%{color: rgb(225, 0, 255);}
+  75%{color: rgb(25, 0, 255);}
+  100%{color: red;}
+  
+}
+
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color:red;
+  animation-name: title;
+  animation-duration: 10s;
+}
 
 @media print {
     body * {
@@ -27,3 +43,4 @@
       top: 0;
     }
   }
+
